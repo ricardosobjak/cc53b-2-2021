@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+<body>
+  <h1>Forms</h1>
+
+  <form action="http://portal.utfpr.edu.br" method="POST">
+    
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" placeholder="Nome da pessoa" />
+
+    <input type="tel" placeholder="(xx) xxxxx-xxxx" />
+
+    <input type="date" />
+    <input type="datetime" />
+    <input type="datetime-local" />
+    <input type="time" />
+
+    <input type="number" />
+    <input type="password" />
+    <input type="email" />
+
+    <input type="file" />
+
+    <input type="month" />
+    <input type="color" />
+    <input type="range" min="0" max="10"  />
+    <input type="checkbox"  />
+
+    <br>
+
+    
+
+    <input type="radio" name="estado" value="PR"  />PR
+    <input type="radio" name="estado" value="SC"  />SC
+    <input type="radio" name="estado" value="SP"  />SP
+
+
+    <br>
+
+    <input type="hidden" value="xxxxx" />
+
+    <br>
+
+    Estados do Brasil
+    <select name="estado" multiple>
+      <option value="PR">Paraná</option>
+      <option value="SC">Santa Catarina</option>
+      <option value="SP">São Paulo</option>
+    </select>
+
+    <hr>
+
+    <textarea name="descricao" cols="30" rows="10">Texto de exemplo</textarea>
+
+    <input type="text" name="nome" value="Juca da Silva" >
+
+    <hr>
+    Botões <br>
+
+    <input type="button" value="Botão 1.1" />
+    <input type="submit" value="Botão 1.2" />
+    <input type="reset" value="Botão 1.3" />
+
+    <br>
+
+    <button type="button" onclick="alert('oiiiii');">Botão 2</button>
+    <button type="reset">Botão 3 - Reset</button>
+    <button type="submit">Botão 4 - Submit</button>
+  </form>
+  
+</body>
+</html>

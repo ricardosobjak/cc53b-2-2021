@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @font-face {
+        font-family: 'Montserrat';
+        src: url('Montserrat-Regular.ttf');
+      }
+
+      body {
+        margin: 0;
+        font-family: Montserrat;
+        background-color: #f3f3f3;
+      }
+
+      body > header,
+      body > footer {
+        background-color: #888;
+        color: #fff;
+        width: 100%;
+        clear: both;
+        padding: 10px;
+      }
+      
+      section {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+      }
+
+      main {
+        padding: 10px;
+        margin-left: 220px;
+      }
+
+      nav {
+        width: 200px;
+        margin: 10px;
+        float: left;
+      }
+
+      nav > ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        background-color: #f1f1f1;
+      }
+
+      nav > ul > li > a {
+        padding: 8px 0 8px 16px;
+        display: block;
+        text-decoration: none;
+        color: #222;
+      }
+
+      nav > ul > li > a.active {
+        background-color: #4caf50;
+        color: white;
+      }
+
+      nav > ul > li > a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>UTFPR - Campus Medianeira</header>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Página Inicial</a></li>
+          <li><a href="#">Alunos</a></li>
+          <li><a href="#">Concursos</a></li>
+          <li><a href="#">Biblioteca</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h2>Bem-vindos</h2>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur fugiat optio ut delectus, eum, neque fuga aperiam consequatur repellat debitis possimus facilis quisquam. Deserunt vel nulla labore a voluptas doloremque.</p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur porro, officiis, error, quidem sit exercitationem quia unde commodi iure explicabo voluptatibus reiciendis natus nulla! Aliquid minima aut suscipit minus harum.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur porro, officiis, error, quidem sit exercitationem quia unde commodi iure explicabo voluptatibus reiciendis natus nulla! Aliquid minima aut suscipit minus harum.
+        </p>
+      </main>
+    </section>
+
+    <footer>Av. Brasil, 4232 - Medianeira/PR</footer>
+  </body>
+</html>
