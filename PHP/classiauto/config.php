@@ -1,6 +1,9 @@
 <?php
   //error_reporting(0);
 
+// Inicializar a sessão
+session_start();
+
 $CONFIG['webroot'] = '/aula-2-2021/classiauto/';
 
 // Caminho absoluto da aplicação dentro do servidor web
